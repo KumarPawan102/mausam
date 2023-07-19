@@ -29,23 +29,23 @@ const apiKey = "98566f4f31cdc4fbc3133dd19d072046";
                 document.querySelector(".min").innerHTML = " " + data.main.temp_min + "°C";
 
                 if (data.weather[0].main == "Clouds") {
-                    weatherIcon.src = "images/clouds.png";
+                    weatherIcon.src = "clouds.png";
                     console.log("CLouds");
                 }
                 else if (data.weather[0].main == "Clear") {
-                    weatherIcon.src = "images/clear.png";
+                    weatherIcon.src = "clear.png";
                     console.log("CLouds");
                 }
                 else if (data.weather[0].main == "Rain") {
-                    weatherIcon.src = "images/rain.png";
+                    weatherIcon.src = "rain.png";
                     console.log("CLouds");
                 }
                 else if (data.weather[0].main == "Drizzle") {
-                    weatherIcon.src = "images/drizzle.png";
+                    weatherIcon.src = "drizzle.png";
                     console.log("CLouds");
                 }
                 else if (data.weather[0].main == "Mist") {
-                    weatherIcon.src = "images/mist.png";
+                    weatherIcon.src = "mist.png";
                     console.log("CLouds");
                 }
                 document.querySelector(".details").style.display = "flex";
